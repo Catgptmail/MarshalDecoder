@@ -2,7 +2,7 @@
 # marshalDecoder README
 
 ## Overview
-PycDecompiler is a Python script designed to decompile Python bytecode files (`.pyc`). It utilizes the `pycdc` tool to perform the decompilation.
+marshalDecoder is a Python script designed to decompile Python bytecode files (`.py`). It utilizes the `pycdc` tool to perform the decompilation.
 
 ## Prerequisites
 - Python 3.x
@@ -15,7 +15,7 @@ PycDecompiler is a Python script designed to decompile Python bytecode files (`.
 
 ### Command Syntax
 ```bash
-python marshalDecoder.py -f <input_file.pyc> -o <output_file.py>
+python marshalDecoder.py -f <input_file.py> -o <output_file.py>
 ```
 
 ### Example
