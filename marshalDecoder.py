@@ -235,7 +235,7 @@ class PycDecompiler:
         self.output_path = output_path
 
     def get_magic_code(self, code):
-        pattern = r'loads\([b]\'(.*?)\'\)\)'
+        pattern = r'loads\([b][\'\"](.*?)[\'\"]\)\)'
         matches = re.findall(pattern, code, re.DOTALL)
         return codecs.escape_decode(matches[0].strip())[0]
 
